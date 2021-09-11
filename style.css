@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.numInput>* {
+    border: none;
+    margin: 10px;
+    border-bottom: 1px solid #000;
+    width: 40px;
+    text-align: center;
+}
+
+.numInput :focus {
+    outline: none;
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn {
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: none;
+    margin: auto;
+    background: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    margin-top: 25px;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+    background: rgb(50, 99, 190);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.Resetbtn {
+    position: absolute;
+    background: tomato;
+    top: 15px;
+    right: 15px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+.Resetbtn:hover {
+    background: rgb(136, 41, 25);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.results {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
