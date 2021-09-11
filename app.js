@@ -1,3 +1,4 @@
+// Selecting all the required DOM elements
 let submitButton = document.getElementById("findBtn");
 let num1 = document.getElementById("num1");
 let num2 = document.getElementById("num2");
