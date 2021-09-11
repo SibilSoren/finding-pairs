@@ -13,7 +13,7 @@ let num10 = document.getElementById("num10");
 let resultTitle = document.getElementById("resultTitle");
 let myPair = document.getElementById("pairList");
 
-// Initializing an empty array to store the numbers
+// Initializing an empty array to store the numbers.
 let inputArr = [];
 
 // Regular expression to check only numbers
