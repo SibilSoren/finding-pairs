@@ -84,9 +84,9 @@ function findPair(arr, target) {
         }
     }
     /* If we end to get to the point where both the pointer are equal we just return the pairList array*/
-    if (low == high) {
-        return pairList;
-    }
+//     if (low == high) {
+//         return pairList;
+//     }
 
     /* This obj is used to push the value which satisy the condition*/
     function pairObj(a, b) {
